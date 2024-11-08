@@ -1,0 +1,14 @@
+nav {
+    background: var(--clr-white);
+    box-shadow: var(--light-shadow);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+  }
+
