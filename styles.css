@@ -253,3 +253,24 @@ nav {
 .dest p {
   padding: 0.5rem;
 }
+.trips{
+  display: flex;
+  gap: 1.5rem;
+
+}
+.trips .trips-desc img {
+  border-radius: 7px;
+}
+.trips-desc .reviews {
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+
+}
+.reviews .num {
+  border: 1px solid #6b7280;
+  background-color: green;
+  border-radius: 7px;
+  width: 40px;
+
+}
