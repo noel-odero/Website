@@ -1,126 +1,209 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <!-- font awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
     <!-- styles -->
-     <link rel="stylesheet" href="styles.css">
-     <script src="https://cdn.tailwindcss.com"></script>
-
-
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
     <nav class="py-4 max-w-7xl mx-auto">
-        <div class="nav-header">
-            <img src="./logo.svg" alt="logo" class="logo">
-            <button class="nav-toggle">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-        <ul class="links">
-            <li class="flex items-center gap-1 border border=gray-600 rounded-2xl px-3 py-1 flex items-center gap-1">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3" />
-                  </svg>
+      <div class="nav-header">
+        <img src="./logo.svg" alt="logo" class="logo" />
+        <button class="nav-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <ul class="links">
+        <li
+          class="flex items-center gap-1 border border=gray-600 rounded-2xl px-3 py-1 flex items-center gap-1"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="size-4"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3 16.5v2.25A2.25 2.25 0 0 0 5.25 21h13.5A2.25 2.25 0 0 0 21 18.75V16.5M16.5 12 12 16.5m0 0L7.5 12m4.5 4.5V3"
+            />
+          </svg>
 
-                Download the app</li>
-            <li><a href="">Travel planner</a></li>
-            <li><a href="">Register accomodations</a></li>
-            <li><a href="">Help</a></li>
-            <li><a href="">My travel</a></li>
-            <li><a href="">Register</a></li>
-        </ul>
+          Download the app
+        </li>
+        <li><a href="">Travel planner</a></li>
+        <li><a href="">Register accomodations</a></li>
+        <li><a href="">Help</a></li>
+        <li><a href="">My travel</a></li>
+        <li><a href="">Register</a></li>
+      </ul>
     </nav>
     <main>
-        <section class="h-[80vh] text-white bg-[url('./image1.jpg')] bg-cover bg-center flex hero">
-            <div class="desc">
-                <p class="font-bold">Everything is fine, you book with FeWo-direkt</p>
-            </div>
-            <div class="data">
-                <div class="data-desc">
-                    <i class="fas fa-map-marker-alt"></i>
-                    <p class="where">Where should we go?</p>
-                </div>
+      <section
+        class="h-[120vh] text-white bg-[url('./image1.jpg')] bg-cover bg-center flex hero"
+      >
+        <div class="desc">
+          <p class="font-bold">Everything is fine, you book with FeWo-direkt</p>
+        </div>
+        <div class="data">
+          <div class="data-desc">
+            <i class="fas fa-map-marker-alt"></i>
+            <p class="where">Where should we go?</p>
+          </div>
 
-                <div class="data-desc">
-                    <i class="fas fa-calendar"></i>
-                    <div class="moredata">
-                        <p>data</p>
-                        <p>Nov.16 - Nov.30</p>
-                    </div>
-                </div>
-                <div class="data-desc">
-                    <i class="fas fa-users"></i>
-                    <div class="moredata">
-                        <p>guests</p>
-                        <p>2 travelers</p>
-                    </div>
-                </div>
-                <div class="seek-btn">
-                    <button>seek</button>
-                </div>
+          <div class="data-desc">
+            <i class="fas fa-calendar"></i>
+            <div class="moredata">
+              <p>data</p>
+              <p>Nov.16 - Nov.30</p>
             </div>
-        </section>
-        <section class="s2 max-w-7xl mx-auto w-full">
-            <div class="message">
-                <div class="icon">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155" />
-                      </svg>
-                    <p>Sign in to message the host and get more details about a listing.</p>
-                </div>
-                <p class="Register-btn">Register</p>
+          </div>
+          <div class="data-desc">
+            <i class="fas fa-users"></i>
+            <div class="moredata">
+              <p>guests</p>
+              <p>2 travelers</p>
             </div>
-            <div class="destinations">
-                <h1>Popular travel destinations</h1>
+          </div>
+          <div class="seek-btn">
+            <button>seek</button>
+          </div>
+        </div>
+      </section>
+      <section class="s2 max-w-7xl mx-auto w-full">
+        <div class="message">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="size-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M20.25 8.511c.884.284 1.5 1.128 1.5 2.097v4.286c0 1.136-.847 2.1-1.98 2.193-.34.027-.68.052-1.02.072v3.091l-3-3c-1.354 0-2.694-.055-4.02-.163a2.115 2.115 0 0 1-.825-.242m9.345-8.334a2.126 2.126 0 0 0-.476-.095 48.64 48.64 0 0 0-8.048 0c-1.131.094-1.976 1.057-1.976 2.192v4.286c0 .837.46 1.58 1.155 1.951m9.345-8.334V6.637c0-1.621-1.152-3.026-2.76-3.235A48.455 48.455 0 0 0 11.25 3c-2.115 0-4.198.137-6.24.402-1.608.209-2.76 1.614-2.76 3.235v6.226c0 1.621 1.152 3.026 2.76 3.235.577.075 1.157.14 1.74.194V21l4.155-4.155"
+              />
+            </svg>
+            <p>
+              Sign in to message the host and get more details about a listing.
+            </p>
+          </div>
+          <p class="Register-btn">Register</p>
+        </div>
+        <div class="destinations">
+          <h1>Popular travel destinations</h1>
+        </div>
+        <div class="destinations-imgs">
+          <div class="dest">
+            <img src="./kigali.jpg" alt="" />
+            <p>Kigali</p>
+          </div>
+          <div class="dest">
+            <img src="./paris.jpg" alt="" />
+            <p>Paris</p>
+          </div>
+          <div class="dest group relative">
+            <img src="./Nairobi.jpg" alt="" />
+            <p>Nairobi</p>
+          </div>
+          <div class="dest group relative">
+            <img src="./dubai.jpg" alt="" />
+            <p>Dubai</p>
+            <div
+              class="w-8 h-8 group-hover:visible invisible rounded-full p-1 absolute flex items-center justify-center bg-white top-[45%] -right-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="blue"
+                class="size-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
+                        
             </div>
-            <div class="destinations-imgs">
-                <div class="dest">
-                    <img src="./kigali.jpg" alt="">
-                    <p>Kigali</p>
-                </div>
-                <div class="dest">
-                    <img src="./paris.jpg" alt="">
-                    <p>Paris</p>
-                </div>
-                <div class="dest">
-                    <img src="./Nairobi.jpg" alt="">
-                    <p>Nairobi</p>
-                </div>
-                <div class="dest">
-                    <img src="./dubai.jpg" alt="">
-                    <p>Dubai</p>
-                </div>
+          </div>
+        </div>
+        <div class="destinations">
+          <h1>Find accommodations to suit your taste</h1>
+        </div>
+        <div class="flex w-full gap-8 mb-8">
+          <div class="w-full relative h-80 rounded-2xl cursor-pointer">
+            <img
+              src="./apartment.jpg"
+              alt=""
+              class="w-full h-full rounded-2xl"
+            />
+            <p class="text-white text-sm absolute bottom-2 left-2 font-bold">
+              Ferienhaus
+            </p>
+          </div>
+          <div class="w-full relative h-80 rounded-2xl cursor-pointer">
+            <img src="./hutte.jpg" alt="" class="w-full h-full rounded-2xl" />
+            <p class="text-white text-sm absolute bottom-2 left-2 font-bold">
+              Ferienhaus / Enshuldigung
+            </p>
+          </div>
+          <div class="w-full relative h-80 rounded-2xl cursor-pointer">
+            <img src="./russa.jpg" alt="" class="w-full h-full rounded-2xl" />
+            <p class="text-white text-sm absolute bottom-2 left-2 font-bold">
+              Landhaus
+            </p>
+          </div>
+          <div class="w-full relative h-80 rounded-2xl cursor-pointer">
+            <img src="./villa.jpg" alt="" class="w-full h-full rounded-2xl" />
+            <p class="text-white text-sm absolute bottom-2 left-2 font-bold">
+              Villa
+            </p>
+          </div>
+          <div class="w-full group relative h-80 rounded-2xl cursor-pointer">
+            <img src="./hutte.jpg" alt="" class="w-full h-full rounded-2xl" />
+            <p class="text-white text-sm absolute bottom-2 left-2 font-bold">
+              Ferienhaus
+            </p>
+            <div
+              class="w-8 h-8 group-hover:visible invisible rounded-full p-1 absolute flex items-center justify-center bg-white top-[45%] -right-4"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="blue"
+                class="size-5"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="m8.25 4.5 7.5 7.5-7.5 7.5"
+                />
+              </svg>
             </div>
-            <div>
-                <h1>Find accommodations to suit your taste</h1>
-            </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p></p>
-                </div>
-            </div>
-            <div></div>
-        </section>
+          </div>
+                    
+        </div>
+        <div></div>
+      </section>
     </main>
-</body>
+  </body>
 </html>
-
-
-
