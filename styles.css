@@ -27,11 +27,73 @@ nav {
   }
   .links a:hover {
     /* background: #3498db; */
-    color: #2c3e50;
-    padding-left: 1.5rem;
+    /* color: #2c3e50; */
+    /* padding-left: 1.5rem; */
   }
 .links .btn {
-    display: inline-block;
+    /* display: inline-block; */
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius: 20px;
+    margin-top: 0;
+    background-color: transparent;
+    padding: 7px 10px;
+    color : white;
+    text-decoration: none;
+    border-radius: 10px;
+    border-color:2px solid #0000;
+    font-size: 16px
+    align-items: center;
+    justify-content: center;
 }
+
+.links {
+    height: 0;
+    overflow: hidden;
+    transition: var(--transition);
+  }
+  .show-links {
+    height: 10rem;
+  }
+.nav-toggle {
+    font-size: 1.5rem;
+    color: var(--clr-primary-5);
+    background: transparent;
+    border-color: transparent;
+    transition: var(--transition);
+    cursor: pointer;
+  }
+  .nav-toggle:hover {
+    color: var(--clr-primary-1);
+    transform: rotate(90deg);
+  }
+  .logo {
+    height: 40px;
+  }
+  @media screen and (min-width: 800px) {
+    .nav-center {
+      max-width: 1170px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+    }
+    .nav-header {
+      padding: 0;
+    }
+    .nav-toggle {
+      display: none;
+    }
+    .links {
+      height: auto;
+      display: flex;
+    }
+    .links a {
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .links a:hover {
+      padding: 0;
+      background: transparent;
+    }
+  }
