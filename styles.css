@@ -260,6 +260,10 @@ nav {
 }
 .trips .trips-desc img {
   border-radius: 7px;
+  /* width: 293.35px;
+  height: 195.56px; */
+
+
 }
 .trips-desc .reviews {
   display: flex;
