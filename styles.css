@@ -271,6 +271,29 @@ nav {
   border: 1px solid #6b7280;
   background-color: green;
   border-radius: 7px;
-  width: 40px;
+  width: 45px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
+}
+
+.main-reviews {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.main-reviews .holiday .holiday-desc {
+  font-weight: bold;
+}
+
+.main-reviews .holiday .price {
+  font-weight: bold;
+  font-size:larger;
+}
+
+.main-reviews .holiday .price-desc {
+  font-size: smaller;
 }
